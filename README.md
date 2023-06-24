@@ -1,8 +1,7 @@
 # CHATBOT
-This is a chatbot built with JavaScript.
 
 ## Description
-
+- This is a chatbot built with JavaScript.
 ## Features
 
 ## Tools
