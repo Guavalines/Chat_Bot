@@ -24,5 +24,16 @@ body {
   background: #724ae8;
   padding: 16px 0;
   text-align: center;
-
+}
+.chatbot header {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.chatbot .chatbox {
+  height: 510px;
+  overflow-y: auto;
+  padding: 15px 20px 70px;
+}
+.chatbox .chat {
+  display: flex;
 }
