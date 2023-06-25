@@ -37,3 +37,8 @@ body {
 .chatbox .chat {
   display: flex;
 }
+.chatbox .chat p {
+  padding: 12px 16px;
+  border-radius: 10px 10px 0 10px;
+  background: #724ae8;
+}
