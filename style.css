@@ -38,7 +38,12 @@ body {
   display: flex;
 }
 .chatbox .chat p {
+  color: #fff;
+  font-size: 0.95rem;
   padding: 12px 16px;
   border-radius: 10px 10px 0 10px;
   background: #724ae8;
+}
+.chatbox .incoming p {
+
 }
