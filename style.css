@@ -32,15 +32,16 @@ body {
 .chatbot .chatbox {
   height: 510px;
   overflow-y: auto;
-  padding: 15px 20px 70px;
+  padding: 30px 20px 70px;
 }
 .chatbox .chat {
   display: flex;
 }
-.chatbox .outgoing span {
+.chatbox .incoming span {
   height: 32px;
   width: 32px;
   color: #fff;
+  align-self: flex-end;
   background: #724ae8;
   text-align: center;
   line-height: 32px;
@@ -63,4 +64,12 @@ body {
   color: #000;
   background: #f2f2f2;
   border-radius: 10px 10px 10px 0;
+}
+.chatbot .chat-input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 5px 20px;
+  border-top: 1px solid #ccc;
 }
