@@ -73,3 +73,10 @@ body {
   padding: 5px 20px;
   border-top: 1px solid #ccc;
 }
+.chat-input textarea {
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  resize: none;
+  padding: 16px 15px 16px 0;
+}
