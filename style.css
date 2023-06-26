@@ -69,14 +69,25 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  display: flex;
+  gap: 5px;
   background: #fff;
   padding: 5px 20px;
   border-top: 1px solid #ccc;
 }
 .chat-input textarea {
   border: none;
+  height: 55px;
+  width: 100%;
   outline: none;
   font-size: 0.95rem;
   resize: none;
   padding: 16px 15px 16px 0;
+}
+.chat-input span {
+  align-self: flex-end;
+  color: #724ae8;
+  font-size: 1.35rem;
+  cursor: pointer;
+  background: red;
 }
