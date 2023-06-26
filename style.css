@@ -8,6 +8,19 @@
 body {
   background: #E3F2FD;
 }
+.chatbot-toggler {
+  position:fixed;
+  right: 40px;
+  bottom: 35px;
+  height: 50px;
+  width: 50px;
+  color:#fff;
+  border: none;
+  outline: none;
+  background: #724ae8;
+  cursor: pointer;
+  border-radius: 50%;
+}
 .chatbot {
   position:fixed;
   right: 40px;
