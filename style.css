@@ -86,8 +86,13 @@ body {
 }
 .chat-input span {
   align-self: flex-end;
+  height: 55px;
+  line-height: 55px;
   color: #724ae8;
   font-size: 1.35rem;
   cursor: pointer;
-  background: red;
+  visibility: hidden;
+}
+.chat-input textarea:valid ~ span {
+  visibility: hidden;
 }
