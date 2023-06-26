@@ -10,6 +10,9 @@ body {
 }
 .chatbot-toggler {
   position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 40px;
   bottom: 35px;
   height: 50px;
@@ -20,6 +23,13 @@ body {
   background: #724ae8;
   cursor: pointer;
   border-radius: 50%;
+}
+.chatbot-toggler span{
+  position: absolute;
+}
+.chatbot-toggler span:last-child{
+  opacity: 0;
+
 }
 .chatbot {
   position:fixed;
