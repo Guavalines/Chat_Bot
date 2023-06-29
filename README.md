@@ -1,7 +1,7 @@
 # CHATBOT
 
 ## Description
-- This is a chatbot built with JavaScript.
+- This is a simple chatbot built with JavaScript.
 ## Features
 - Ask any question and receive instant responses.
 - Fully responsive.
