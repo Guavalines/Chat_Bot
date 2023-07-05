@@ -27,11 +27,12 @@ body {
 .chatbot-toggler span{
   position: absolute;
 }
+.show-chatbot .chatbot-toggler span:first-child,
 .chatbot-toggler span:last-child{
   opacity: 0;
 }
-.show-chatbot{
-
+.show-chatbot .chatbot-toggler span:last-child{
+  opacity: 1;
 }
 .chatbot {
   position:fixed;
