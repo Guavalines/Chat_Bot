@@ -53,7 +53,6 @@ body {
   opacity: 1;
   pointer-events: auto;
 }
-
 .chatbot header {
   background: #724ae8;
   padding: 16px 0;
@@ -66,6 +65,11 @@ body {
 .chatbox header h2 {
   color: #fff;
   font-size: 1.4rem;
+}
+.chatbot header span {
+  position: absolute;
+  right: 20px;
+  top: 50%;
 }
 .chatbot .chatbox {
   height: 510px;
