@@ -1,7 +1,7 @@
 # 🤖 CHATBOT
 
 ## Description
-- This is a simple chatbot built with JavaScript.
+- This is a simple chatbot built with JavaScript, HTML, CSS.
 ## Features
 - Ask any question and receive instant responses!
 - Fully responsive.
