@@ -3,7 +3,7 @@
 ## Description
 - This is a simple chatbot built with JavaScript, HTML, and CSS.
 ## Features
-- Ask any question and receive instant responses!
+- Ask the bot any question and receive instant responses!
 - Fully responsive.
 
 ## Details
