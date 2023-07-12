@@ -5,7 +5,8 @@ let userMessage;
 
 const createChatLi = (message, className) => {
   const chatLi = document.createElement("li");
-  chatLi.classList.add("");
+  chatLi.classList.add("chat", className);
+  let chatContent = className === "outgoing" ?
 }
 
 const handleChat = () => {
