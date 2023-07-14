@@ -1,5 +1,6 @@
 const chatInput = document.querySelector(".chat-input textarea");
 const sendChatbtn = document.querySelector(".chat-input span");
+const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
 
@@ -16,7 +17,8 @@ const handleChat = () => {
   userMessage = chatInput.ariaValueMax.trim();
   if(!userMessage) return;
 
-  createChatLi(userMessage, "outgoing");
+  // Append the user's message to the chatbox
+  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
 }
 
 sendChatbtn.addEventListener("click", handleChat);
