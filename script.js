@@ -19,6 +19,10 @@ const handleChat = () => {
 
   // Append the user's message to the chatbox
   chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+
+  setTimeout(() => {
+    chatbox.appendChild(createChatLi("Thinking...", "outgoing"));
+  }, 600);
 }
 
 sendChatbtn.addEventListener("click", handleChat);
