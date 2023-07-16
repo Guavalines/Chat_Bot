@@ -21,7 +21,8 @@ const handleChat = () => {
   chatbox.appendChild(createChatLi(userMessage, "outgoing"));
 
   setTimeout(() => {
-    chatbox.appendChild(createChatLi("Thinking...", "outgoing"));
+    // Display "Thinking..." message while waiting for the response
+    chatbox.appendChild(createChatLi("Thinking...", "incoming"));
   }, 600);
 }
 
