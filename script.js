@@ -13,6 +13,10 @@ const createChatLi = (message, className) => {
   return chatLi;
 }
 
+const generateResponse = () => {
+  const API URL = "https://api.openai.com/v1/chat/completions";
+}
+
 const handleChat = () => {
   userMessage = chatInput.ariaValueMax.trim();
   if(!userMessage) return;
@@ -23,6 +27,7 @@ const handleChat = () => {
   setTimeout(() => {
     // Display "Thinking..." message while waiting for the response
     chatbox.appendChild(createChatLi("Thinking...", "incoming"));
+    generateResponse();
   }, 600);
 }
 
