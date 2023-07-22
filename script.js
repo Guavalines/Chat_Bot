@@ -26,9 +26,13 @@ const generateResponse = () => {
     },
     body: JSON.stringify({
       model: "gpt-3.5-turbo",
-      messages: [{role: "user", content: "Hello!"}]
+      messages: [{role: "user", content: userMessage}]
     })
   }
+
+  fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
+    console.log();
+  })
 }
 
 const handleChat = () => {
